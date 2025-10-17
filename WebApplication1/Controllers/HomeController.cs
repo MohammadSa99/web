@@ -16,7 +16,6 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
-            var result = BCrypt.Net.BCrypt.EnhancedHashPassword("12345");
             return View();
         }
 
